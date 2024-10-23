@@ -1,0 +1,143 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+.logo-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url('../assets/logo.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+
+nav {
+    display: flex;
+}
+
+.navbar {
+    padding: 10px;
+}
+  
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+  
+.navbar ul li {
+    position: relative;
+}
+  
+.navbar ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #1a1616;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border-radius: 5px; /* Untuk menambahkan efek kotak saat hover */
+}
+
+.navbar ul li a:hover {
+    background-color: #7a958f;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+/*nav a {
+    border: 1px solid;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+*/
+
+.photo-banner {
+    width: 100%;
+}
+
+.article {
+    height: 100%;
+}
+
+div.article {
+    padding-left: 100px;
+    align-content: center;
+}
+
+header {
+    align-content: center;
+}
+
+section#section-profile {
+    display: flex;
+}
+
+.message-container {
+    display: flex;
+}
+
+.result {
+    display: none;
+    border: 1px solid;
+    padding: 5px;
+    margin-top: 10px;
+    width: 400px;
+    margin-left: 30px;
+}
+
+.btn-submit {
+    width: 344px;
+    background-color: #292421;
+    color: white;
+}
+
+footer>div {
+    text-align: center;
+    font-family: cursive;
+    font-size: small;
+}
+
+.port {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgs {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.imgs img {
+    width: 50%;
+}
+
+span#name {
+    color: #a75f37;
+}
+
+p#intro {
+    font-size: 18px;
+}
+
+h1#home {
+    font-size: 34px;
+}
+
+body {
+    background: linear-gradient(120deg, #f2d6ce 0%, #bae0da 100%);
+}
+
+
+@media only screen and (max-width: 600px){
+    .main-header {
+        flex-direction: column;
+    }
+}
