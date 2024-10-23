@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Logo icon & Navigasi bar -->
+    <header class="main-header">
+        <!-- Logo-->
+         <div class="logo-icon"></div>
+
+        <!-- Navigasi -->
+         <nav class="navbar">
+            <ul>
+                <li><a href="#section-home">Home</a></li>
+                <li><a href="#section-profile">Profile</a></li>
+                <li><a href="#section-portofolio">Portfolio</a></li>
+                <li><a href="#section-message-us">Message Us</a></li>
+            </ul>
+            
+         </nav>
+    </header>
+
+    <hr />
+
+    <!-- Konten -->
+    <main>
+        <!-- Section Home -->
+        <section id="section-home">
+            <header>
+                <h1 id="home">Hi <span id="name">User</span>, Welcome to my website</h1>
+            </header>
+
+            <article>
+                <p id="intro">My name is Shintia, i am enthusiastic in the field of technology, especially in:</p>
+
+                <!-- Photo Banner -->
+                 <div>
+                    <img 
+                        class="photo-banner"
+                        src="assets\banner.png"
+                    />
+                    <img 
+                        class="photo-banner"
+                        src="assets\banner2.png"
+                    />
+                    <img 
+                        class="photo-banner"
+                        src="assets\banner3.png"
+                    />
+                 </div>
+            </article>
+        </section>
+
+        <hr />
+
+          <!-- Section Profile-->
+          <section id="section-profile">
+            <header>
+                <h1>Profile</h1>
+            </header>
+
+            <article>
+                <div class="article">
+                    <p>Hi!</p><br>
+                    <p>My name is Shintia Wulandari</p>
+                    <p>I am a recent graduate in Informatics Engineering from Kuningan
+                        University. My academic background provides a strong foundation in programming, application
+                        development and system architecture </p>
+                    <p> Have internship experience in developing cost budget plan (RAB) calculation applications
+                        and academic projects in web development and Android applications. Familiar with working with 
+                        modern databases and frameworks, ready to contribute as a Junior Software Engineer with good analysis 
+                        and problem solving skills.</p>
+                    <p>I am enthusiastic about leveraging my skills into an innovative technology team, contributing to technology-based 
+                        solutions that drive efficiency and ease of use.</p><br>
+                    <p>Contact</p>
+                    <p>shintiawulandari16@gmail.com</p>
+
+                </div>
+            </article>
+          </section>
+
+          <hr />
+
+          <!-- Section Portofolio-->
+          <section id="section-portofolio">
+            <header>
+                <h1>Portfolio</h1>
+            </header>
+
+            <article class="port">
+                <div class="imgs">
+                    <img src="assets\web.png">
+                    <h2>Web-based Bookstore System for Admins</h2>
+                    <p>Web-based Bookstore System for Admins is a successful website that i created with PHP, MySQL, and Bootstrap-based web application for admins with CRUD features</p>
+                </div>
+    
+                <div class="imgs">
+                    <img src="assets\mobile.png">
+                    <h2>Student Data Collection</h2>
+                    <p>Android based application that u created integrated with Firebase for real-time student data management</p>
+                </div>
+
+            </article>
+          </section>
+
+          <hr />
+
+          <!-- Section Message Us-->
+          <section id="section-message-us">
+            <header>
+                <h1>Message Us</h1>
+            </header>
+
+            <div class="message-container">
+                <form id="messageForm">
+                    <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td>: <input type="text" id="nama" size="30" name="nama" placeholder="Nama" required></td>
+                        </tr>
+                        <tr>
+                            <td>Tanggal Lahir</td>
+                            <td>: <input type="date" id="TTL" name="ttl" required></td>
+                        </tr>
+                        <tr>
+                            <td>Jenis Kelamin</td>
+                            <td>:   
+                                
+                                    <input type="radio" id="Laki-Laki" name="JK" value="Laki-Laki">
+                                    <label for="Laki-Laki">Laki-Laki</label>
+                                    <input type="radio" id="Perempuan" name="JK" value="Perempuan">
+                                    <label for="Perempuan">Perempuan</label>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pesan</td>
+                            <td>: <textarea name="pesan" id="pesan" placeholder="Pesan"></textarea></td>
+                        </tr>
+                    </table>
+
+                    <!-- Button Submit -->
+                    <button class="btn-submit" type="submit">Submit</button>
+                </form>
+
+                <!-- Hasil Submit-->
+                 <div id="message-submit" class="result">
+                    <p id="submit-content"></p>
+                 </div>
+
+                <div></div>
+            </div>
+          </section>
+
+
+      </main>
+
+      <hr />
+
+    <!-- Copyright -->
+    <footer>
+        <div>Made By Shintia</div>
+    </footer>
+
+    <script src="js\script.js"></script>
+</body>
+</html>
